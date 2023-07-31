@@ -1,0 +1,314 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    border: 100px;
+}
+
+.textosheader{
+    display: block;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    text-align: center;
+    }
+    
+    .textosheader h1{
+        font-size: 60px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .textosheader h2{
+        font-size: 30px;
+        font-weight: 300;
+        color: rgb(255, 255, 255);
+    }
+    
+    
+
+    /* INDEX */
+    .h3h4index{
+        padding: 10px;
+        background: rgb(255, 255, 255);
+        display: grid;
+        height: 350px;
+        grid-row: 3/3;
+
+    }
+        
+    .h3index {
+        color: rgb(255, 255, 255);
+        width: 100%;
+        text-align: center;
+        background-image: url(../img/cafeeeeeee.jpg);
+        position: relative;
+        padding-top: 90px;
+        box-shadow: 7px 7px 15px #592A08;
+        background-size: cover;
+        font-size: 30px;
+        color: grey;  
+        grid-column: 1/3;
+    }
+
+    .h3index img{
+        height: auto;
+    }
+
+    .h4index {
+
+        width: 100%;
+        text-align: center;
+        background-image: url(../img/mike-kenneally-TD4DBagg2wE-unsplash.jpg);
+        color: rgb(255, 255, 255);
+        padding-top: 90px;
+        background-size: cover;
+        box-shadow: 7px 7px 15px #592A08;
+        font-size: 30px;
+        grid-column: 3/3;
+
+}
+
+
+.imagensitasindex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.contenedorimagenes {
+    box-shadow: 7px 7px 15px #592A08;
+    margin: 10px;
+    background: rgba(247, 242, 235, 0.911);
+}
+
+.imagen-conteiner .imagen-caja img{
+    width: 100%;
+    height: auto;
+}
+
+
+.container {/* aplicarlo desde el padre, como header o main etc */
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 300px;
+   /* row o column(linea o columna), wrap o nowrap, nos acercamos al tema del responsive */
+/* start(izq) end(der) y center(centro) space-between y evenly*//* solo para mas de 1 fila */
+}
+
+/* ME QUEDE ACAAAA CON LO DE SASSS RECORDATORIO PA MA;ANA */
+
+.container img {
+    border-style: solid;
+}
+
+  .mocaccino {
+    color: black;
+    color: white;
+    display: flex;
+    background: rgb(182, 182, 182);
+}
+
+.mocaccino img {
+    height: 22vh;
+}
+
+  
+.capuchino {
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    background: rgb(182, 182, 182);
+}
+.capuchino img {
+    height: 22vh;
+    border-color: white;
+}
+
+  
+  
+.cortado {
+    color: rgb(255, 255, 255);
+    display: flex;
+    background: rgb(182, 182, 182);
+}
+.cortado img {
+        height: 22vh;
+    
+}
+  
+  .otro-gusto {
+    color: black;
+    display: flex;
+    background: rgb(182, 182, 182);
+    flex-direction: row-reverse;
+}
+
+
+.otro-gusto img{
+    height: 22vh;
+    border-color: white;
+}
+
+.parrafoscafe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.tipodecafe {
+    font-size: 4vh;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: 1px;
+    margin: 30px;
+}
+  
+.descripcioncafes {
+    text-align: auto;
+    margin-bottom: 30px;
+}
+    /* FOOOOOOOTEEEER */
+    .footerr{
+        margin-top: 1000px;
+        background-color: gray;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .footerr ul{
+list-style: none;
+text-decoration: none;
+text-align: center;
+    }
+
+    .footerr ul li a{
+        background-color: none;
+        margin: 20px 10px;
+        padding: 10px;
+        width: 100%;
+        text-decoration: none;
+        align-items: left;
+        color: rgb(255, 255, 255);
+        color: black;
+    }
+
+    /* HTML HISTORIA */
+    /* aca proximamente iria una imagen de fondo buena */
+    .iiframe{
+        border-style: solid;
+        border-color: bisque;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    .tablaa{
+        border-style: solid;
+        border-color: bisque;
+        align-items: center;
+        color: red;
+    }
+
+    .historia{
+        border-style: solid;
+        border-color: bisque;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* HTML INICIO */
+    .h1inicio{
+        text-align: center;
+    }
+
+    /* MEDIA RESPONSIVE */
+    @media only screen and (max-width: 600px) {
+
+            .h3h4index{
+                padding: 10px;
+                background: rgb(255, 255, 255);
+                display: flex;
+                flex-direction: row;
+                height: 150px;
+            }
+
+            .h3index {
+                color: rgb(255, 255, 255);
+                width: 100%;
+                text-align: center;
+                background-image: url(../img/cafeeeeeee.jpg);
+                position: relative;
+                padding-top: 90px;
+                box-shadow: 7px 7px 15px #592A08;
+                background-size: cover;
+            }
+            .h3index h3 {
+                display: none;
+            }
+                
+        
+            .h4index {
+        
+                width: 100%;
+                text-align: center;
+                background-image: url(../img/mike-kenneally-TD4DBagg2wE-unsplash\ \(1\).jpg);
+                color: rgb(255, 255, 255);
+                padding-top: 20px;
+                box-shadow: 7px 7px 15px #592A08;
+                display: flex;
+                justify-content: center;
+                text-align: top;
+                font-size: 20px;
+            }
+            
+            .imagensitasindex {
+                width: 100%;
+                height: auto;
+            }
+            .contenedorimagenes img{
+                height: 100px;
+            }
+
+            /* CAFEEEEEEEEEEEEEEEEEEEEEES */
+            /* ME QUEDE ACAAAAAAAA */
+
+                .container {/* aplicarlo desde el padre, como header o main etc */
+                    padding: 20px;
+                    display: flex;
+                    gap: 10px;
+                    height: auto;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 100%;
+                    margin-left: 0px;
+                   /* row o column(linea o columna), wrap o nowrap, nos acercamos al tema del responsive */
+                /* start(izq) end(der) y center(centro) space-between y evenly*//* solo para mas de 1 fila */
+                }
+        }
+
+
+        
